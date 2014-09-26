@@ -27,3 +27,4 @@ def mult(n1, n2, Max):
 
 
 print mult(3, 5, 1000)
+

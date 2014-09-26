@@ -13,8 +13,8 @@ import numpy as np
 from fractions import gcd
 
 
-## The function takes two inputs: The number whose multiples are to be
-## calculated and the maximum limit.
+## The function takes three inputs: The numbers whose multiples are to be
+## added and the maximum limit.
 
 
 def mult(n1, n2, Max):

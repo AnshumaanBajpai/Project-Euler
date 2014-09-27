@@ -6,7 +6,7 @@ Created on Fri Sep 26 23:33:15 2014
 """
 
 
-## This script is a solution to problem 4 on project Euler. n1 is the starting
+## This script is a solution to problem 6 on project Euler. n1 is the starting
 ## natural number and n2 is the neding natural number.
 
 

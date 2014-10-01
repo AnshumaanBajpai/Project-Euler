@@ -19,10 +19,11 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 
-fibo = [1, 1]
+fibo = [1, 1]  # Initiallize the series and store just the last two numbers
+count = 2  # Counter for counting the element of the sequence
 
-count = 2
-while (len(str(fibo[1])) < 1000):
+
+while (len(str(fibo[1])) < 1000):  # program stops once the digits = 1000
     fibo = [fibo[1], fibo[0] + fibo[1]]
     count += 1
 

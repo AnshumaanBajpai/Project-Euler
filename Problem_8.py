@@ -5,10 +5,7 @@ Created on Sat Oct 04 13:51:49 2014
 @author: Anshumaan
 """
 
-## This code takes the large 1000 digit number as a string input and then
-## splits it into multiple strings at 0s. It then figures out how many of those
-## strings are 13 or larger in length. It then calculated required product and
-## compares.
+## This code takes the large 1000 digit number from problem 8 as a string input ## and then splits it into multiple strings at 0s. It then figures out how many ## of those strings are 13 or larger in length. It then calculates the  required## product and compares.
 
 a_1 = "73167176531330624919225119674426574742355349194934"
 a_2 = "96983520312774506326239578318016984801869478851843"

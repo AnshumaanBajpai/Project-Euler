@@ -10,8 +10,12 @@ Created on Sat Oct 04 22:21:25 2014
 
 
 with open("p022_names.txt") as names:
-    namelist = []
-    print names
     for line in names:
-        namelist += line.split(",")
-    print len(sorted(namelist))
+        namelist = line.split(",")
+    namelist = [i[1:-1] for i in sorted(namelist)]  # sorting alphabetically
+    sumed_list = [sum([ord(a[i]) - 64 for i in range(len(a))]) for a in
+                  namelist]  # creating a list with sum of term characters
+
+## Now we multiply the index of each term with the term in the sumed_list.
+
+    print sum([sumed_list[i] * (i + 1) for i in range(len(sumed_list))])

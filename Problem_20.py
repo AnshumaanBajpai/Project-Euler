@@ -20,5 +20,7 @@ n = 100
 f_n = factorial(n)  # calculates the factorial of n and saves in f_n
 
 
-print reduce(lambda x, y: x + y, [int(str(f_n)[i]) for i
-             in range(len(str(f_n)))])  # calculates the sum of all digits
+## calculate the sum of all digits
+
+
+print sum([int(str(f_n)[i]) for i in range(len(str(f_n)))])

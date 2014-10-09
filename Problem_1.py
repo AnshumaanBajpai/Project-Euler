@@ -5,7 +5,7 @@ Created on Thu Sep 25 20:25:18 2014
 @author: Anshumaan
 """
 
-
+##
 ## This script is the solution to Problem 1 in project Euler.
 
 
